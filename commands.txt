@@ -1,0 +1,39 @@
+python manage.py runserver
+python manage.py migrate
+python manage.py runserver
+git status
+git add .
+git status
+git commit -m "initial setup working"
+git push
+git status
+/history
+doskey /history > commands.txt
+dir
+cd .
+cd ..
+dir
+mkdir config/settings
+mkdir config/settings/
+cd config
+dir
+mkdir settings
+dir
+move settings.py settings/base.py
+cd settings
+dir
+echo local.py
+echo production.py
+echo test.py
+echo > local.py
+echo > production.py
+echo > test.py
+dir
+cd ..
+dir
+echo > env.example
+copy env.example .env
+dir
+venv\Scripts\activate.bat
+pip install -Ur requirements\local.txt
+python manage.py runserver
