@@ -55,6 +55,7 @@ THIRD_PARTY_APPS = (
 
 LOCAL_APPS = (
     'project.api',
+    'hw',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
